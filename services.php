@@ -14,7 +14,7 @@
     <meta name="msapplication-TileImage" content="img/favicon.png">
 
     <!-- Open Graph Meta Tags (for social media sharing) -->
-    <meta property="og:image" content="img/favicon.jpg">
+    <meta property="og:image" content="img/favicon.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="<?php echo $name ?> - Spiritual Solutions">
@@ -329,7 +329,8 @@
                             <div class="d-flex align-items-center py-4">
                                 <span class="flex-shrink-0 btn-square bg-red me-3 p-4"><i
                                         class="fab fa-whatsapp text-white"></i></span>
-                                <a href="https://wa.me/<?php echo $phone ?>" class="text-body">+<?php echo $phone ?></a>
+                                <a href="https://wa.me/<?php echo $phone ?>"
+                                    class="text-body">+<?php echo $phone ?></a>
                             </div>
                         </div>
                     </div>
