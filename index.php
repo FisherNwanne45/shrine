@@ -163,27 +163,25 @@
             <div class="container py-5">
                 <div class="row g-5 mb-5">
                     <div class="col-xl-6">
-                        <div class="row g-4">
-                            <div class="col-6">
-                                <img src="img/about-1.jpg" class="img-fluid h-100 wow zoomIn" data-wow-delay="0.1s"
-                                    alt="">
+                        <div class="row g-4 d-flex align-items-stretch">
+                            <div class="col-6 d-flex">
+                                <img src="img/about-1.jpg" class="img-fluid w-100 object-fit-cover wow zoomIn"
+                                    data-wow-delay="0.1s" alt="" style="height: auto;">
                             </div>
-                            <div class="col-6">
-                                <img src="img/about-2.jpg" class="img-fluid pb-3 wow zoomIn" data-wow-delay="0.1s"
-                                    alt="">
-                                <img src="img/about-3.jpg" class="img-fluid pt-3 wow zoomIn" data-wow-delay="0.1s"
+                            <div class="col-6 d-flex flex-column">
+                                <img src="img/about-2.jpg" class="img-fluid wow zoomIn" data-wow-delay="0.1s" alt="">
+                                <img src="img/about-3.jpg" class="img-fluid wow zoomIn mt-3" data-wow-delay="0.1s"
                                     alt="">
                             </div>
                             <div class="bg-light p-3 mb-4">
                                 <div class="row align-items-center justify-content-center">
-                                    <div class="col-3">
+                                    <div class="col-6 col-lg-4">
                                         <img src="img/about-child.jpg" class="img-fluid rounded-circle" alt="">
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-6 col-lg-6">
                                         <p class="mb-0">Through sacred rites and ancestral offerings, we call forth
-                                            wealth and favor, the spirits bless your hands.</p>
-                                    </div>
-                                    <div class="col-3">
+                                            wealth and favor, the spirits bless your hands.</p><br>
+
                                         <h4 class="mb-0 text-red text-center">Fortune</h4>
                                         <h5 class="mb-0 text-center">Charms</h5>
                                     </div>
@@ -202,7 +200,7 @@
                             <br>
                             I am the most reliable spiritualist with evidence of my many good works. For over 37 years i
                             have been helping people solve their problems. I have help so many people take away tears
-                            from their eyes and put smile on their face.<br>
+                            from their eyes and put smile on their face.<br><br>
 
                             <b><small> - I can help you bring back your ex lover.<br>
 
@@ -213,6 +211,7 @@
                                     times more than before. </small></b>
 
                         </p>
+                        <hr><br>
                         <div class="row g-4 mb-4">
                             <div class="col-md-6">
                                 <div class="ps-3 d-flex align-items-center justify-content-start">
