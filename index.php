@@ -63,8 +63,8 @@
                         <div class="col-lg-7 text-start">
                             <div class="h-100 d-inline-flex align-items-center me-4">
                                 <span class="fab fa-whatsapp me-2 text-primary"></span>
-                                <a href="https://wa.me/2347017587828"
-                                    class="text-white"><span><?php echo $phone ?></span></a>
+                                <a href="https://wa.me/<?php echo $phone ?>"
+                                    class="text-white"><span>+<?php echo $phone ?></span></a>
                             </div>
                             <div class="h-100 d-inline-flex align-items-center">
                                 <span class="far fa-envelope me-2 text-primary"></span>
@@ -1394,7 +1394,8 @@
                                 <div class="d-flex align-items-center py-4">
                                     <span class="flex-shrink-0 btn-square bg-red me-3 p-4"><i
                                             class="fab fa-whatsapp text-white"></i></span>
-                                    <a href="https://wa.me/2347017587828" class="text-body"><?php echo $phone ?></a>
+                                    <a href="https://wa.me/<?php echo $phone ?>"
+                                        class="text-body">+<?php echo $phone ?></a>
                                 </div>
                             </div>
                         </div>
