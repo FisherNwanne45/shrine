@@ -221,7 +221,7 @@
 
                             <!-- CTA -->
                             <div class="text-center">
-                                <a href="https://wa.me/<?php echo $phone; ?>&text=Hello Reekoa Healing. I want the service: Restoring Broken Relationships and Marriages for $299"
+                                <a href="https://wa.me/<?php echo $phone; ?>?text=Hello Reekoa Healing. I want the service: Restoring Broken Relationships and Marriages for $299"
                                     target="_blank" class=" btn btn-danger px-4 py-2">Get Started</a>
                             </div>
                         </div>
@@ -256,7 +256,7 @@
 
                             <!-- CTA -->
                             <div class="text-center">
-                                <a href="https://wa.me/<?php echo $phone; ?>&text=Hello Reekoa Healing. I want the service: Improving Your Finances Spiritually for $891"
+                                <a href="https://wa.me/<?php echo $phone; ?>?text=Hello Reekoa Healing. I want the service: Improving Your Finances Spiritually for $891"
                                     target="_blank" class=" btn btn-danger px-4 py-2">Get Started</a>
                             </div>
                         </div>
@@ -289,7 +289,7 @@
 
                             <!-- CTA -->
                             <div class="text-center">
-                                <a href="https://wa.me/<?php echo $phone; ?>&text=Hello Reekoa Healing. I want the service: Breaking Curses for $695"
+                                <a href="https://wa.me/<?php echo $phone; ?>?text=Hello Reekoa Healing. I want the service: Breaking Curses for $695"
                                     target="_blank" class=" btn btn-danger px-4 py-2">Get Started</a>
                             </div>
                         </div>
