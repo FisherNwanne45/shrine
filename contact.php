@@ -202,7 +202,7 @@
 ${message}`;
 
             // Open WhatsApp with pre-filled message
-            window.open(`https://web.whatsapp.com/send?phone=<?php echo $phone; ?>&text=${whatsappMessage}`,
+            window.open(`https://wa.me/<?php echo $phone; ?>&text=${whatsappMessage}`,
                 '_blank');
 
         });

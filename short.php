@@ -18,7 +18,7 @@ $email = 'healingspiritual171@gmail.com';
 $mail = 'healingspiritual171@gmail.com';
 
 
-$tawk = '<a href="https://web.whatsapp.com/send?phone=+2347017587828&text=Hello Reekoa Healing. I want to make an enquiry" class="float" target="_blank">
+$tawk = '<a href="https://wa.me/+2347017587828&text=Hello Reekoa Healing. I want to make an enquiry" class="float" target="_blank">
             <i class="fab fa-whatsapp my-float"></i>
             <span class="notification-badge">2</span>
             <span class="tooltip-balloon">Contact Me</span>
