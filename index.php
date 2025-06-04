@@ -141,7 +141,7 @@
 
                                 <p class="fs-4 text-white">Love Spell That Works</p>
                                 <h6 class="display-5 mb-5 text-white">Experience <?php echo $name ?> Love Spell</h6>
-                                <a href="" class="btn btn-primary py-3 px-5">Read More</a>
+                                <a href="contact.php" class="btn btn-primary py-3 px-5">Contact Me</a>
                             </div>
                         </div>
 
