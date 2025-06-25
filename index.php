@@ -141,7 +141,24 @@
 
                             <p class="fs-4 text-white">Love Spell That Works</p>
                             <h6 class="display-5 mb-5 text-white">Experience <?php echo $name ?> Love Spell</h6>
-                            <a href="contact.php" class="btn btn-primary py-3 px-5">Contact Me</a>
+                            <div class="text-center">
+                                <!-- Icon Buttons -->
+                                <div class="d-inline-flex gap-4 mb-3">
+                                    <a href="https://wa.me/<?php echo $phone ?>"
+                                        class="d-flex align-items-center justify-content-center text-white"
+                                        style="width: 60px; height: 60px; background-color: #25D366; border-radius: 10px;">
+                                        <i class="fab fa-whatsapp fa-2x"></i>
+                                    </a>
+                                    <a href="mailto:<?php echo $email ?>"
+                                        class="d-flex align-items-center justify-content-center text-white"
+                                        style="width: 60px; height: 60px; background-color: #6c757d; border-radius: 10px;">
+                                        <i class="fa fa-envelope-open fa-2x"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+
+
                         </div>
                     </div>
 
@@ -398,6 +415,81 @@
     </div>
     <!-- Activities Start -->
 
+    <!-- Services Overview Start -->
+    <div class="container-fluid activities py-5 bg-light">
+        <div class="container py-5">
+            <div class="mx-auto text-center mb-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
+                <p class="fs-5 text-uppercase text-red">Services</p>
+                <h1 class="display-6"> My Powerful Spiritual Services</h1>
+            </div>
+
+            <div class="row g-4">
+                <!-- Spiritual Services -->
+                <div class="col-lg-6 col-xl-4">
+                    <div class="activities-item p-4 h-100 wow fadeIn" data-wow-delay="0.1s">
+
+                        <div class="ms-0">
+                            <h6 class="mb-3"> <i class="fa fa-dove text-dark mb-3"></i> Spiritual Services</h6>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-check text-red me-2"></i> Love Spell</li>
+                                <li class="mb-2"><i class="fas fa-check text-red me-2"></i> Lottery Spell</li>
+                                <li class="mb-2"><i class="fas fa-check text-red me-2"></i> Financial Spell</li>
+                                <li class="mb-2"><i class="fas fa-check text-red me-2"></i> Cleansing</li>
+                                <li class="mb-2"><i class="fas fa-check text-red me-2"></i> Court Case</li>
+                                <li class="mb-2"><i class="fas fa-check text-red me-2"></i> Pregnancy Spells</li>
+                                <li class="mb-2"><i class="fas fa-check text-red me-2"></i> Protection Spell</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Healing Services -->
+                <div class="col-lg-6 col-xl-4">
+                    <div class="activities-item p-4 h-100 wow fadeIn" data-wow-delay="0.2s">
+
+                        <div class="ms-0">
+                            <h6 class="mb-3"><i class="fa fa-hand-holding-medical text-dark mb-3"></i> Healing
+                                Services</h6>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-check text-red me-2"></i> Arthritis</li>
+                                <li class="mb-2"><i class="fas fa-check text-red me-2"></i> Herpes Virus</li>
+                                <li class="mb-2"><i class="fas fa-check text-red me-2"></i> Warts Virus</li>
+                                <li class="mb-2"><i class="fas fa-check text-red me-2"></i> Cancer</li>
+                                <li class="mb-2"><i class="fas fa-check text-red me-2"></i> Diabetes</li>
+                                <li class="mb-2"><i class="fas fa-check text-red me-2"></i> Various Infections</li>
+                                <li class="mb-2"><i class="fas fa-check text-red me-2"></i> Chronic Diseases</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other Services -->
+                <div class="col-lg-6 col-xl-4">
+                    <div class="activities-item p-4 h-100 wow fadeIn" data-wow-delay="0.3s">
+
+                        <div class="ms-0">
+                            <h6 class="mb-3"><i class="fa fa-star-and-crescent  text-dark mb-3"></i> Other Services
+                            </h6>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-check text-red me-2"></i> Fortune Charms</li>
+                                <li class="mb-2"><i class="fas fa-check text-red me-2"></i> Empowerment Rituals</li>
+                                <li class="mb-2"><i class="fas fa-check text-red me-2"></i> Soul Connections</li>
+                                <li class="mb-2"><i class="fas fa-check text-red me-2"></i> Curses Removal</li>
+                                <li class="mb-2"><i class="fas fa-check text-red me-2"></i> Breaking Curses</li>
+                                <li class="mb-2"><i class="fas fa-check text-red me-2"></i> Financial Enhancement
+                                </li>
+                                <li class="mb-2"><i class="fas fa-check text-red me-2"></i> Relationship Restoration
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services Overview End -->
+
+
     <!-- Sermon Start -->
     <div class="container-fluid sermon py-5">
         <div class="container py-5">
@@ -414,11 +506,11 @@
                             <!-- Price -->
                             <div class="text-center mb-3">
                                 <h3 class="text-red mb-1">
-                                    $299 <small class="text-muted">USD</small>
+                                    $301 <small class="text-muted">USD</small>
                                 </h3>
 
-                                <small class="text-muted"><i class="fas fa-money-bill-wave me-2 text-success"></i>
-                                    One-time payment</small>
+                                <!-- <small class="text-muted"><i class="fas fa-money-bill-wave me-2 text-success"></i>
+                                        One-time payment</small> -->
                             </div>
 
                             <!-- Title -->
@@ -433,7 +525,7 @@
 
                             <!-- CTA -->
                             <div class="text-center">
-                                <a href="https://wa.me/<?php echo $phone; ?>?text=Hello Reekoa Healing. I want the service: Restoring Broken Relationships and Marriages for $299"
+                                <a href="https://wa.me/<?php echo $phone; ?>?text=Hello Reekoa Healing. I want the service: Restoring Broken Relationships and Marriages for $301"
                                     target="_blank" class=" btn btn-danger px-4 py-2">Get Started</a>
                             </div>
                         </div>
@@ -448,10 +540,10 @@
                             <!-- Price -->
                             <div class="text-center mb-3">
                                 <h3 class="text-red mb-1">
-                                    $891 <small class="text-muted">USD</small>
+                                    $850 <small class="text-muted">USD</small>
                                 </h3>
-                                <small class="text-muted"><i class="fas fa-money-bill-wave me-2 text-success"></i>
-                                    One-time payment</small>
+                                <!-- <small class="text-muted"><i class="fas fa-money-bill-wave me-2 text-success"></i>
+                                        One-time payment</small> -->
                             </div>
 
                             <!-- Title -->
@@ -459,7 +551,7 @@
 
                             <!-- Description -->
                             <p class="card-text text-center mb-4">
-                                Enhance your finances spiritually for just $891 USD. This powerful ritual, though
+                                Enhance your finances spiritually for just $850 USD. This powerful ritual, though
                                 intensive, is highly effective and can significantly transform your financial
                                 situation. Unlock a future of abundance and prosperity today, and take the first
                                 step towards financial freedom. Don’t let stress hold you back—experience the
@@ -468,7 +560,7 @@
 
                             <!-- CTA -->
                             <div class="text-center">
-                                <a href="https://wa.me/<?php echo $phone; ?>?text=Hello Reekoa Healing. I want the service: Improving Your Finances Spiritually for $891"
+                                <a href="https://wa.me/<?php echo $phone; ?>?text=Hello Reekoa Healing. I want the service: Improving Your Finances Spiritually for $850"
                                     target="_blank" class=" btn btn-danger px-4 py-2">Get Started</a>
                             </div>
                         </div>
@@ -483,10 +575,10 @@
                             <!-- Price -->
                             <div class="text-center mb-3">
                                 <h3 class="text-red mb-1">
-                                    $695 <small class="text-muted">USD</small>
+                                    $777 <small class="text-muted">USD</small>
                                 </h3>
-                                <small class="text-muted"><i class="fas fa-money-bill-wave me-2 text-success"></i>
-                                    One-time payment</small>
+                                <!-- <small class="text-muted"><i class="fas fa-money-bill-wave me-2 text-success"></i>
+                                        One-time payment</small> -->
                             </div>
 
                             <!-- Title -->
@@ -495,13 +587,13 @@
                             <!-- Description -->
                             <p class="card-text text-center mb-4">
                                 A spiritual reading reveals negative energy affecting your life. Using effective
-                                spiritual oils costing $695, we’ll remove the negativity or curse to restore
+                                spiritual oils costing $777, we’ll remove the negativity or curse to restore
                                 balance.
                             </p>
 
                             <!-- CTA -->
                             <div class="text-center">
-                                <a href="https://wa.me/<?php echo $phone; ?>?text=Hello Reekoa Healing. I want the service: Breaking Curses for $695"
+                                <a href="https://wa.me/<?php echo $phone; ?>?text=Hello Reekoa Healing. I want the service: Breaking Curses for $777"
                                     target="_blank" class=" btn btn-danger px-4 py-2">Get Started</a>
                             </div>
                         </div>
@@ -1429,7 +1521,7 @@
             <div class="border-top border-secondary pb-4"></div>
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <?php echo date("Y");  ?>
+                    &copy; 2010 - <?php echo date("Y");  ?>
                     <?php echo $name ?>, All Right Reserved.
                 </div>
                 <div class="col-md-6 text-center text-md-end">
