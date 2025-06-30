@@ -114,7 +114,7 @@
                             <a href="testimonial.php" class="nav-item nav-link active">Testimonial</a>
                             <a href="services.php" class="nav-item nav-link">Services</a>
                         </div>
-                        <a href="contact.php" class="btn btn-primary py-2 px-4 d-none d-xl-inline-block">Book
+                        <a href="contact.php" class="btn btn-primary py-2 px-4 d-xl-inline-block">Book
                             Consultation</a>
                     </div>
                 </nav>
